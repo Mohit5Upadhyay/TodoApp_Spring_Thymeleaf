@@ -1,0 +1,30 @@
+
+
+/* light-mode.css (inside style.css or separate) */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* dark-mode.css (inside style.css or separate) */
+body.dark-mode {
+    background-color: rgb(52, 52, 52);
+    color: #ffffff;
+}
+
+/* Additional styles for components */
+.navbar.dark-mode {
+    background-color: #333333;
+}
+
+.navbar.light-mode {
+    background-color: #f8f9fa;
+}
+
+.footer.dark-mode {
+    background-color: #1c1c1c;
+}
+
+.footer.light-mode {
+    background-color: #db6930;
+}
