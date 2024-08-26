@@ -1,5 +1,5 @@
 HELP.md
-target/
+/target
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -47,7 +47,7 @@ build/
 *.iml
 
 # Maven specific
-target/
+/target
 .mvn/
 **/mvnw
 **/mvnw.cmd
